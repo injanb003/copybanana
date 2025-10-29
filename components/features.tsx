@@ -31,7 +31,7 @@ export function Features() {
     <section className="py-20 bg-muted/30">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Why Choose Nano Banana?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Why Choose copybanana?</h2>
           <p className="text-muted-foreground text-balance leading-relaxed">
             Experience the next generation of AI-powered image editing with features designed for professionals and
             creators.

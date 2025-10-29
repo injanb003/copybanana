@@ -47,7 +47,7 @@ export function Examples() {
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Showcase Gallery</h2>
           <p className="text-muted-foreground text-balance leading-relaxed">
-            Explore stunning examples of what's possible with Nano Banana's AI-powered image editing.
+            Explore stunning examples of what's possible with copybanana's AI-powered image editing.
           </p>
         </div>
 

@@ -143,7 +143,7 @@ export function Editor() {
 
   const handleDownloadImage = async (src: string, index: number) => {
     try {
-      const filename = `nano-banana-output-${index + 1}.png`
+      const filename = `copybanana-output-${index + 1}.png`
 
       if (src.startsWith("data:")) {
         const link = document.createElement("a")
@@ -179,7 +179,7 @@ export function Editor() {
         <div className="mx-auto max-w-2xl text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Try The AI Editor</h2>
           <p className="text-muted-foreground text-balance leading-relaxed">
-            Experience the power of nano-banana's natural language image editing. Transform any photo with simple text
+            Experience the power of copybanana's natural language image editing. Transform any photo with simple text
             commands.
           </p>
         </div>

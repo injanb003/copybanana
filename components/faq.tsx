@@ -2,9 +2,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "What makes Nano Banana different from other AI image editors?",
+    question: "What makes copybanana different from other AI image editors?",
     answer:
-      "Nano Banana uses an advanced AI model that excels at character consistency and scene preservation. Unlike other tools, our model maintains visual coherence across multiple edits and delivers professional-quality results that surpass competitors like Flux Kontext.",
+      "copybanana uses an advanced AI model that excels at character consistency and scene preservation. Unlike other tools, our model maintains visual coherence across multiple edits and delivers professional-quality results that surpass competitors like Flux Kontext.",
   },
   {
     question: "How does the image upload feature work?",
@@ -22,9 +22,9 @@ const faqs = [
       "Most edits are completed in just a few seconds. Our optimized model is designed for speed without compromising quality, making it perfect for professional workflows where time matters.",
   },
   {
-    question: "Can I use Nano Banana for commercial projects?",
+    question: "Can I use copybanana for commercial projects?",
     answer:
-      "Yes! All images generated with Nano Banana can be used for commercial purposes. We offer flexible licensing options to suit different business needs.",
+      "Yes! All images generated with copybanana can be used for commercial purposes. We offer flexible licensing options to suit different business needs.",
   },
   {
     question: "Is there a limit to how many images I can edit?",
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "Do you offer an API for developers?",
     answer:
-      "Yes! We provide a comprehensive API that allows developers to integrate Nano Banana's AI editing capabilities into their own applications. Documentation and SDKs are available for popular programming languages.",
+      "Yes! We provide a comprehensive API that allows developers to integrate copybanana's AI editing capabilities into their own applications. Documentation and SDKs are available for popular programming languages.",
   },
 ]
 
@@ -50,7 +50,7 @@ export function FAQ() {
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Frequently Asked Questions</h2>
           <p className="text-muted-foreground text-balance leading-relaxed">
-            Everything you need to know about Nano Banana's AI image editing platform.
+            Everything you need to know about copybanana's AI image editing platform.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export function FAQ() {
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                <AccordionTrigger className="text-center">{faq.question}</AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed">{faq.answer}</AccordionContent>
               </AccordionItem>
             ))}

@@ -16,10 +16,10 @@ export function Hero() {
             The AI model that outperforms Flux Kontext
           </Badge>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance mb-6">Nano Banana</h1>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance mb-6">copybanana</h1>
 
           <p className="text-lg md:text-xl text-muted-foreground text-balance mb-8 max-w-2xl mx-auto leading-relaxed">
-            Transform any image with simple text prompts. Nano-banana's advanced model delivers consistent character
+            Transform any image with simple text prompts. copybanana's advanced model delivers consistent character
             editing and scene preservation that surpasses Flux Kontext. Experience the future of AI image editing.
           </p>
 

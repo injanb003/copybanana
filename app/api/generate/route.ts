@@ -4,7 +4,7 @@ import OpenAI from "openai"
 export const runtime = "nodejs"
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
-const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Nano Banana"
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "copybanana"
 
 const client = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",

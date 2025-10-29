@@ -8,7 +8,7 @@ const testimonials = [
     role: "Digital Artist",
     avatar: "/professional-woman-portrait.png",
     content:
-      "Nano Banana has completely transformed my workflow. The character consistency is unmatched, and the results are always stunning.",
+      "copybanana has completely transformed my workflow. The character consistency is unmatched, and the results are always stunning.",
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
     role: "Content Creator",
     avatar: "/professional-man-portrait.png",
     content:
-      "I've tried many AI image editors, but nothing comes close to the quality and speed of Nano Banana. It's a game-changer.",
+      "I've tried many AI image editors, but nothing comes close to the quality and speed of copybanana. It's a game-changer.",
     rating: 5,
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     role: "Marketing Director",
     avatar: "/business-professional-portrait.png",
     content:
-      "Our team uses Nano Banana daily for campaign assets. The natural language interface makes it accessible to everyone.",
+      "Our team uses copybanana daily for campaign assets. The natural language interface makes it accessible to everyone.",
     rating: 5,
   },
   {
@@ -47,7 +47,7 @@ const testimonials = [
     role: "Social Media Manager",
     avatar: "/young-professional-portrait.png",
     content:
-      "Fast, reliable, and produces amazing results. Nano Banana has become an essential tool in my creative toolkit.",
+      "Fast, reliable, and produces amazing results. copybanana has become an essential tool in my creative toolkit.",
     rating: 5,
   },
 ]
@@ -59,7 +59,7 @@ export function Testimonials() {
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Loved by Creators</h2>
           <p className="text-muted-foreground text-balance leading-relaxed">
-            Join thousands of professionals who trust Nano Banana for their image editing needs.
+            Join thousands of professionals who trust copybanana for their image editing needs.
           </p>
         </div>
 
