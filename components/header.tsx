@@ -35,6 +35,12 @@ export async function Header() {
           >
             FAQ
           </Link>
+          <Link
+            href="/pricing"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Pricing
+          </Link>
         </nav>
 
         <div className="flex items-center gap-3">
