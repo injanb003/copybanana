@@ -1,6 +1,7 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Pricing } from "@/components/pricing"
+import { Suspense } from "react"
 
 export default function PricingPage() {
   return (
@@ -8,7 +9,9 @@ export default function PricingPage() {
       {/* Header is a Server Component */}
       {/* @ts-expect-error Async Server Component */}
       <Header />
-      <Pricing />
+      <Suspense fallback={null}>
+        <Pricing />
+      </Suspense>
       <Footer />
     </main>
   )
